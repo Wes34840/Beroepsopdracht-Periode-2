@@ -1,0 +1,128 @@
+#Headtable{
+    margin: 0 0 0 12vw;
+}
+#myHeader{
+    background-color: silver;
+    align-items: center;
+    width: 100%;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+th{
+    border: 1px solid black;
+    background: white;
+    font-size: 30px;
+    Border-Radius: 15px;
+}
+#ENFlag, #NLFlag{
+    margin: 0;
+    position: absolute;
+    top: 1.35vw;
+    left: 93.5vw;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+#NLFlag{
+    left: 91vw;
+}
+body{
+    background-color: black;
+}
+img{
+    border-radius: 15px;
+
+}
+#Landing{
+    background-image: url(../img/background.jpeg);
+    background-size: 100vw 80vw;
+    height: 50vw;
+}
+#container{
+    position:relative;
+    text-align: center;
+    color: black;
+    padding-bottom: 5vw;
+}
+#Logo{
+    opacity: 0.5;
+    width: 66vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Title{
+    font-size:90px;
+    font-family: 'Orbitron', serif;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#titleText{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    width: 35vw;
+    margin: 0;
+    position: absolute;
+    top: 26vw;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#BigRedButton{
+    position: absolute;
+    margin:0;
+    width:30vw;
+    top: 35.5vw;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: red;
+}
+#History{
+    background: white;
+    width: 65vw;
+    margin: 0 auto;
+    min-height: 40vw;
+    border-radius: 15px;
+    padding-bottom: 0.3vw;
+}
+#Geschiedenis{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 0.3vw;
+    border-bottom: 1px solid black;
+}
+#gsText{
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    width: 22vw;
+    position: absolute;
+    top: 72vw;
+    left: 70.5vw;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;    
+    text-align: center;
+}
+#gsFoto{
+    position: absolute;
+    top: 145%;
+    left: 38.4vw;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 41.5vw;
+}
